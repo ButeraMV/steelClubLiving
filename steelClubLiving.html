@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:400,700" rel="stylesheet">    <meta charset="UTF-8">
+    <title>Silver Creek Country Club Living</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <style>
+        body {
+	border-top:10px solid green;
+	color:#26235b;
+	background:#edece8 url(https://www.dropbox.com/s/rls7vd6vc6wzyd1/bg.jpg?dl=1) center top no-repeat;
+	font-family: 'Noto Serif SC', serif;
+	font-style: normal;
+	font-weight: 400;
+}
+.container {
+	background:#fff;
+	background:rgba(255,255,255,.7);
+	padding-bottom:2em;
+}
+#logo {
+	background:#fff;
+	-webkit-box-shadow: 0px 1px 22px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 1px 22px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 1px 22px 0px rgba(0,0,0,0.25);
+}
+img#logo {
+	margin-left: auto;
+	margin-right:auto
+}
+.content {padding-left:0}
+h1,h2,h3,h4 {
+	font-family: 'Noto Serif SC', serif;
+	font-style: italic;
+	font-weight: 400;
+}
+p {
+	font-size:1.2em;
+}
+#rendering {
+    width: 100%;
+}
+@media (max-width:375px) {
+	body {
+		background:#fff
+	}
+	#rendering-big {display:none}
+	#logo{
+		text-align:center;
+		box-shadow:none;
+	}
+	.logo img {
+		margin:0 auto
+	}
+	h1 {
+		margin-top: 10px;
+		font-size: 28px;
+		text-align: center;
+	}
+	h1 span {display:none}
+	h3, .h3 {
+	font-size: 20px;
+	}
+}
+@media (min-width:376px) {
+	#logo{
+		position:relative;
+		z-index:10;
+	}
+	#logo{margin-top:-20px}
+	#rendering-small {display:none}
+}
+@media (min-width:668px) {
+	h1 {margin-top: 23px;}
+	h1 span {display:inline}
+	#logo{margin-top:-55px}
+	#rendering-small {display:none}
+}
+@media (min-width:991px) {
+	#logo{margin-top:-99px}
+}
+</style>
+    <!-- <script type="text/javascript">
+        $(document).ready(function () {
+            $(".fancybox").fancybox();
+        });
+    </script> -->
+</head>
+
+<body>
+    <!-- <img src="https://www.dropbox.com/s/cp028d73gf7r9yb/rendering.jpg?dl=1" alt="artists rendering" id="rendering-small" class="img-responsive" title="" /> -->
+    <div class="container">
+    <a href="https://www.dropbox.com/s/cp028d73gf7r9yb/rendering.jpg?dl=1" data-fancybox="images">
+        <img src="https://www.dropbox.com/s/cp028d73gf7r9yb/rendering-lg.jpg?dl=1" id="rendering" alt="artists-rendering" />
+    </a>
+    
+        <div>
+            
+            <div class="col-md-3 logo">
+                <img src="https://www.dropbox.com/s/q0uxpebhihwcsdi/silver-creek-country-club-living%402x.png?dl=1" width="207" alt="logo" id="logo" class="img-responsive"
+                    title="Silver Creek Country Club Living" />
+            </div>
+            <div class="col-md-8 content">
+                <h1><span>Country Club Living </span>Coming Soon&hellip;</h1>
+                <p><strong>120 luxurious Country Club Townhouses to be erected on the beautiful grounds of the Silver
+                        Creek Country Club.</strong></p>
+                <p>The Club is located in Lower Saucon Township, Northampton County, Pennsylvania one of the most
+                    desirable areas within the Lehigh Valley region. The Club encompasses 280+ lush acres and dates
+                    back to 1948 when it was known as the prestigious Bethlehem Steel Club. World-renowned course
+                    architect, Donald Ross, designed and built the original 18-hole golf course, which is still as
+                    magnificent today as it was then. The townhouses will be custom built units to suit each buyer's
+                    taste while maintaining a unified architectural façade. When completed, the Development will be a
+                    fully integrated, private community with a number of amenities, such as; 18 and 9 holes golf
+                    courses, driving range, pro shop, tennis courts, swimming pool, fine dining, private catering
+                    facilities, and more!</p>
+                <h3>To learn about this exciting opportunity to become a member and own one of these exclusive
+                    properties&hellip;</h3>
+                <h4>Contact us at 610-865-0745 or email us at <a href="mailto:info@scccliving.com">info@scccliving.com</a></h4>
+            </div>
+        </div>
+
+    </div><!-- /.container -->
+</body>
+
+</html>
